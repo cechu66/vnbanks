@@ -13,7 +13,7 @@ class VIB(vnbanks.base.Bank):
     def __init__(self, name='VIB'):
         self.name = name
 
-    def deposite_rate(self):
+    def deposit_rate(self):
         rate = vnbanks.base.Rate('VND')
         rate.rates['ONE_MONTH'] = self._get_1_month_rate()
         rate.rates['THREE_MONTHS'] = 1.5

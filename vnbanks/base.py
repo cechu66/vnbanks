@@ -5,7 +5,7 @@ class Bank(object):
     def __init__(self, name, **kwargs):
         self.name = name
 
-    def deposite_rate(self):
+    def deposit_rate(self):
         raise NotImplementedError
 
     def loan_rate(self):
