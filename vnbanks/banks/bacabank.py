@@ -8,7 +8,7 @@ import vnbanks.base
 BAC_A_BANK = 'http://www.baca-bank.vn/chuyen-muc/77/lai-suat-tiet-kiem'
 
 
-class Bacabank(vnbanks.base.Bank):
+class BacAbank(vnbanks.base.Bank):
     """."""
     def __init__(self, name='BacABank'):
         """."""
@@ -19,8 +19,8 @@ class Bacabank(vnbanks.base.Bank):
         rate = vnbanks.base.Rate('VND')
         PERIOD = ['NONE',
                   '1_WEEK',
-                  '2_WEEK',
-                  '3_WEEK',
+                  '2_WEEKS',
+                  '3_WEEKS',
                   '1_MONTH',
                   '2_MONTHS',
                   '3_MONTHS',
